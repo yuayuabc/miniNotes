@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "miniNote",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath": "pages/home/home",
+        "text": "notes",
+        "iconPath": "images/class_my_gray.png",
+        "selectedIconPath": "images/class_my_green.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/class_my_gray.png",
+        "selectedIconPath": "images/class_my_green.png",
+        "text": "your profile"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
